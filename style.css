@@ -62,6 +62,7 @@ header {
     text-align: center;
 }
 .box-endereco {
+
     position: relative;
     width: 20vw;
     height: 8vw;
@@ -72,6 +73,7 @@ header {
 .box-endereco>h2 {
     position: relative;
     text-align: center;
+    color: green;
 }
 .box-endereco>p {
     position: relative;
