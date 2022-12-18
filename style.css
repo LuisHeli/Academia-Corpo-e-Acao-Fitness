@@ -60,23 +60,51 @@ header {
 .section-1>h1 {
     position: relative;
     text-align: center;
+    font-size: 2.4vw;
 }
 .box-endereco {
-
+    display: inline;
+    float: left;
     position: relative;
-    width: 20vw;
-    height: 8vw;
-    left: 10vw;
+    width: 24vw;
+    height: 10vw;
+    left: 7vw;
     padding: 1vw;
-    border: 0.06vw solid rgba(128, 128, 128, 0.615);
+    border: 0.06vw solid rgba(0, 0, 0, 0.225);
 }
 .box-endereco>h2 {
     position: relative;
     text-align: center;
+    font-size: 1.7vw;
+    bottom: 1vw;
     color: green;
 }
 .box-endereco>p {
     position: relative;
+    bottom: 1vw;
     text-align: center;
     font-weight: 500;
+    font-size: 1.3vw;
+}
+
+.box-horario {
+    display: inline;
+    position: relative;
+    text-align: center;
+    right: 12vw;
+    border: 0.06vw solid black;
+}
+.box-horario>h2 {
+    position: relative;
+    text-align: center;
+    font-size: 1.7vw;
+    bottom: 1vw;
+    color: green;
+}
+.box-horario>p {
+    position: relative;
+    bottom: 1vw;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3vw;
 }
