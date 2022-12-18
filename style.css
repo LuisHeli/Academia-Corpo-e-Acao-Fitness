@@ -220,10 +220,99 @@ header {
     text-align: center;
     font-size: 1.9vw;
 }
+.display-galeria {
+    background-color: rgba(128, 128, 128, 0.227);
+    margin-top: 6vw;
+    margin-bottom: 4vw;
+}
 .img-galeria {
-    width: 30vw;
-    height: 24vw;
+    width: 24vw;
+    height: 17vw;
 }
 .display-img {
     display: inline;
+    padding: 0.8vw;
+}
+
+/* Rodape (Footer)*/
+
+footer {
+    height: 20vw;
+    background-color: #1A1A1A;
+    color: white;
+}
+.display-icones-rede-social img {
+    padding: 1vw;
+    width: 5vw;
+    height: 5vw;
+}
+.display-text-footer>h2 {
+    font-size: 1.7vw;
+}
+.display-text-footer>p {
+    font-size: 1vw;
+}
+.line-footer {
+    border: 1px solid rgb(32, 31, 31);
+}
+
+@media (max-width: 509px) {
+    .display-tittle-sec-2>hr {
+        border: 1px solid black;
+        margin: 0 auto 16px;
+        width: 10vw;
+        position: relative;
+        top: 2vw;
+    }
+    .display-tittle-sec-3>hr {
+        border: 1px solid black;
+        margin: 0 auto 16px;
+        width: 12vw;
+        position: relative;
+        top: 2vw;
+    }
+}
+@media (max-width: 454px) {
+    .item-header {
+        float: right;
+        display: inline;
+        position: relative;
+        right: 9.364548494983278vw;
+        top: 0.4vw;
+    }
+    .item-header>p {
+        font-size: 1.672vw;
+        font-weight: 700;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+    .display-tittle-sec-2>hr {
+        border: 1px solid black;
+        margin: 0 auto 16px;
+        width: 10vw;
+        position: relative;
+        top: 3vw;
+    }
+    .display-tittle-sec-3>hr {
+        border: 1px solid black;
+        margin: 0 auto 16px;
+        width: 12vw;
+        position: relative;
+        top: 3vw;
+    }
+}
+@media (max-width: 375px) {
+    .item-header {
+        float: right;
+        display: inline;
+        position: relative;
+        right: 9.364548494983278vw;
+        top: 1vw;
+    }
+    .item-header>p {
+        font-size: 1.8vw;
+        font-weight: 700;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
 }
