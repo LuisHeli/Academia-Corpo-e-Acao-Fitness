@@ -55,7 +55,7 @@ header {
 /* Caixas */
 
 .section-1 {
-    height: 40vw;
+    height: 30vw;
 }
 .section-1>h1 {
     position: relative;
@@ -89,10 +89,13 @@ header {
 
 .box-horario {
     display: inline;
+    float: left;
     position: relative;
-    text-align: center;
-    right: 12vw;
-    border: 0.06vw solid black;
+    width: 24vw;
+    height: 10vw;
+    left: 10vw;
+    padding: 1vw;
+    border: 0.06vw solid rgba(0, 0, 0, 0.225);
 }
 .box-horario>h2 {
     position: relative;
@@ -107,4 +110,120 @@ header {
     text-align: center;
     font-weight: 500;
     font-size: 1.3vw;
+}
+
+.box-contato {
+    display: inline;
+    float: right;
+    position: relative;
+    width: 24vw;
+    height: 10vw;
+    right: 7vw;
+    padding: 1vw;
+    border: 0.06vw solid rgba(0, 0, 0, 0.225);
+}
+.box-contato>h2 {
+    position: relative;
+    text-align: center;
+    font-size: 1.7vw;
+    bottom: 1vw;
+    color: green;
+}
+.box-contato>p {
+    position: relative;
+    bottom: 1vw;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3vw;
+}
+.box-contato>p a {
+    color: rgb(175, 0, 175);
+}
+.box-contato>p a:hover {
+    color: rgb(255, 0, 255);
+    transition: 200ms;
+}
+
+/* SECTION 2 */
+
+#section-2 {
+    height: 48vw;
+}
+.display-tittle-sec-2>hr {
+    border: 1px solid black;
+    margin: 0 auto 16px;
+    width: 10vw;
+}
+
+/* Depoimentos */
+
+.display-tittle-sec-2 {
+    position: relative;
+    text-align: center;
+    font-size: 1.9vw;
+}
+#display-img-1 {
+    position: relative;
+    float: left;
+    left: 8vw;
+    top: 3vw;
+    padding: 0.1vw;
+    border: 0.06vw solid rgba(0, 0, 0, 0.223);
+    border-radius: 0.5vw;
+}
+#img-1 {
+    width: 40vw;
+    height: 12vw;
+}
+#display-img-2 {
+    position: relative;
+    float: right;
+    right: 7vw;
+    top: 3vw;
+    padding: 0.1vw;
+    border: 0.06vw solid rgba(0, 0, 0, 0.223);
+    border-radius: 0.5vw;
+}
+#img-2 {
+    width: 40vw;
+    height: 12vw;
+}
+#display-img-3 {
+    position: relative;
+    float: right;
+    right: 35vw;
+    top: 4vw;
+    padding: 0.1vw;
+    border: 0.06vw solid rgba(0, 0, 0, 0.223);
+    border-radius: 0.5vw;
+}
+#img-3 {
+    width: 30vw;
+    height: 12vw;
+}
+
+/* SECTION-3 */
+
+#section-3 {
+    height: 60vw;
+}
+.display-tittle-sec-3>hr {
+    border: 1px solid black;
+    margin: 0 auto 16px;
+    width: 12vw;
+}
+
+/* Galeria de Fotos */
+
+.display-tittle-sec-3 {
+    position: relative;
+    text-align: center;
+    font-size: 1.9vw;
+}
+.img-galeria {
+    width: 30vw;
+    height: 24vw;
+}
+.display-img {
+    display: inline;
 }
